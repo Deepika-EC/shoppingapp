@@ -168,13 +168,14 @@ function Home() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <input class="form-control me-2 mt-1 fst-italic" onChange={searchItems} value={value} type="search" placeholder="Search items....!" aria-label="Search" />
                         <form class="d-flex mt-2" role="search">
-                            <a className="navbar-brand mx-5 pt-1" href="#" onClick={cartPg}>
+                            <a className="navbar-brand mx-3 pt-1" href="#" onClick={cartPg}>
                                 <i class="fa-solid fa-bag-shopping h3"></i>
                                 <span class="position-absolute top-10 start-70 translate-middle badge rounded-pill bg-danger">{count.length}</span>
                             </a>
-                            <a class="navbar-brand me-4 pt-1" href="#"><i class="fa-solid fa-user"></i> {currentUser?.email}</a>
-                            <button class="btn btn-outline-dark fst-italic" type="submit" onClick={logout}>LOGOUT</button>
+                            <a class="navbar-brand ms-1 me-4 pt-1" href="#"><i class="fa-solid fa-user"></i> {currentUser?.email}</a>
+                            
                         </form>
+                        <button class="btn btn-outline-dark fst-italic" type="submit" onClick={logout}>LOGOUT</button>
                     </div>
                 </div>
             </nav>

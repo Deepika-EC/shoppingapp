@@ -61,19 +61,12 @@ function CartPg() {
                     <Link to="/home">
                         <a class="navbar-brand me-auto" href="#"><i class="fa-solid fa-arrow-left"></i></a>
                     </Link>
-                    <h5 className="fst-italic mx-4">Shopping Bag</h5>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <h5 className="fst-italic">Shopping Bag</h5>
+                    
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        {/* <input class="form-control me-2 mt-1 fst-italic" type="search" placeholder="Search items....!" aria-label="Search" /> */}
-                        <form class="d-flex ms-auto mt-2" role="search">
-                            <a href="#" class="navbar-brand"><h5 className="fst-italic mx-4" onClick={orders}>Orders</h5></a>
-                            <a class="navbar-brand me-4 pt-1" href="#"><i class="fa-solid fa-user"></i>Deepika</a>
-                            <button class="btn btn-outline-dark fst-italic" type="submit">LOGOUT</button>
-                        </form>
-                    </div>
+                    {/* <div class="navbar-brand"> */}
+                        <a href="#" class="navbar-brand"><h5 className="fst-italic mx-4" onClick={orders}>Orders</h5></a>
+                    {/* </div> */}
                 </div>
             </nav>
             <div className="row my-2 mx-0">
