@@ -65,7 +65,7 @@ function Login() {
                             <input value={password} type="password" className="form-control" onChange={changePassword} style={{border:"none",borderBottom:"2px solid black"}} required/>
                         </div>
                         <div className="text-center">
-                        <button type="submit" className="btn btn-success mx-4" >Submit</button>
+                        <button type="submit" className="btn btn-success mx-3 mb-2" >Submit</button>
                         <Link to="/" className="btn btn-danger">Back</Link>
                         <br/><br/>
                         <div>

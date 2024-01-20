@@ -168,7 +168,7 @@ function Home() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <input class="form-control me-2 mt-1 fst-italic" onChange={searchItems} value={value} type="search" placeholder="Search items....!" aria-label="Search" />
                         <form class="d-flex mt-2" role="search">
-                            <a className="navbar-brand mx-3 pt-1" href="#" onClick={cartPg}>
+                            <a className="navbar-brand mx-3 my-2 pt-1" href="#" onClick={cartPg}>
                                 <i class="fa-solid fa-bag-shopping h3"></i>
                                 <span class="position-absolute top-10 start-70 translate-middle badge rounded-pill bg-danger">{count.length}</span>
                             </a>
